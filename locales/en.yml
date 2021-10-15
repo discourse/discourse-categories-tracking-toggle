@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: "Add a tracking toggle to each category on the categories page"
+  custom_toggle:
+    toggle_tracking: "Currently muted, select to track"
+    toggle_mute: "Currently tracking, select to mute"
