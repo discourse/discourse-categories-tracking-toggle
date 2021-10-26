@@ -1,2 +1,3 @@
-{{mount-widget widget="custom-category-track" args=(hash category=category)}}
-
+{{#if currentUser}}
+  {{mount-widget widget="custom-category-track" args=(hash category=category)}}
+{{/if}}
