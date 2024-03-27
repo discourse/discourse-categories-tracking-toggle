@@ -1,6 +1,7 @@
-import { createWidget } from "discourse/widgets/widget";
 import { h } from "virtual-dom";
+import { createWidget } from "discourse/widgets/widget";
 import { iconNode } from "discourse-common/lib/icon-library";
+import I18n from "discourse-i18n";
 
 function setAllLevels(n, that) {
   that.attrs.category.setNotification(n);
