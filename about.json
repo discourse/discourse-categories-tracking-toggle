@@ -1,8 +1,8 @@
 {
-  "about_url": null,
+  "about_url": "https://meta.discourse.org/t/categories-tracking-toggle/207150",
   "license_url": null,
   "assets": {
   },
-  "name": "Categories tracking toggle",
+  "name": "Categories Tracking Toggle",
   "component": true
 }
