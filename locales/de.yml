@@ -5,3 +5,8 @@
 # https://translate.discourse.org/
 
 de:
+  theme_metadata:
+    description: "Füge ein Verfolgen-Toggle zu jeder Kategorie auf der Kategorieseite hinzu"
+  custom_toggle:
+    toggle_tracking: "Derzeit stummgeschaltet, zum Verfolgen auswählen"
+    toggle_mute: "Derzeit verfolgt, zum Stummschalten auswählen"
