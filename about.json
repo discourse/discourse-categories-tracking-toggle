@@ -1,6 +1,6 @@
 {
   "about_url": "https://meta.discourse.org/t/categories-tracking-toggle/207150",
-  "license_url": null,
+  "license_url": "https://github.com/discourse/discourse-categories-tracking-toggle/blob/main/LICENSE",
   "assets": {
   },
   "name": "Categories Tracking Toggle",

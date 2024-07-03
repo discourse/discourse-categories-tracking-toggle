@@ -1,18 +1,14 @@
 tracking_level:
   type: string
   default: 1
-  description: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
 
 tracking_icon:
   type: string
   default: d-regular
-  description: |
-    <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> icon name...
 
 mute_level:
   type: string
   default: 0
-  description: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
 
 mute_icon:
   type: string
@@ -20,4 +16,3 @@ mute_icon:
 
 include_subcategories:
   default: true
-  description: "When disabled, only the parent category will have its tracking state changed"
