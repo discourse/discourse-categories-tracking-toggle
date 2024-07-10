@@ -1,6 +1,11 @@
 en:
   theme_metadata:
     description: "Add a tracking toggle to each category on the categories page"
+    settings:
+      tracking_level: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> icon name...'
+      mute_level: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
+      include_subcategories: "When disabled, only the parent category will have its tracking state changed"
   custom_toggle:
     toggle_tracking: "Currently muted, select to track"
     toggle_mute: "Currently tracking, select to mute"
