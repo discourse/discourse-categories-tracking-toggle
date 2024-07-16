@@ -7,6 +7,11 @@
 de:
   theme_metadata:
     description: "Füge ein Verfolgen-Toggle zu jeder Kategorie auf der Kategorieseite hinzu"
+    settings:
+      tracking_level: "0: Stummgeschaltet, 1: Normal, 3: Ersten Beitrag beobachten, 4: Verfolgen, 5: Beobachten"
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> Symbolname...'
+      mute_level: "0: Stummgeschaltet, 1: Normal, 3: Ersten Beitrag beobachten, 4: Verfolgen, 5: Beobachten"
+      include_subcategories: "Wenn diese Option deaktiviert ist, wird nur der Verfolgen-Status der übergeordneten Kategorie geändert"
   custom_toggle:
     toggle_tracking: "Derzeit stummgeschaltet, zum Verfolgen auswählen"
     toggle_mute: "Derzeit verfolgt, zum Stummschalten auswählen"
