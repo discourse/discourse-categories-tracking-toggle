@@ -7,3 +7,11 @@
 tr_TR:
   theme_metadata:
     description: "Kategoriler sayfasındaki her kategoriye bir izleme geçişi ekleyin"
+    settings:
+      tracking_level: "0: Sessiz, 1: Normal, 3: İlk gönderiyi izliyor, 4: Takip ediyor, 5: İzliyor"
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> simge adı...'
+      mute_level: "0: Sessiz, 1: Normal, 3: İlk gönderi izleniyor, 4: İzleniyor, 5: İzleniyor"
+      include_subcategories: "Devre dışı bırakıldığında, yalnızca üst kategorinin izleme durumu değişir"
+  custom_toggle:
+    toggle_tracking: "Şu anda sessiz, izlemek için seçin"
+    toggle_mute: "Şu anda izleniyor, sessize almayı seçin"

@@ -5,3 +5,13 @@
 # https://translate.discourse.org/
 
 ja:
+  theme_metadata:
+    description: "カテゴリページの各カテゴリに追跡トグルを追加します"
+    settings:
+      tracking_level: "0: ミュート、1: 通常、3: 最初の投稿をウォッチ中、4: 追跡中、5: ウォッチ中"
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> アイコン名...'
+      mute_level: "0: ミュート、1: 通常、3: 最初の投稿をウォッチ中、4: 追跡中、5: ウォッチ中"
+      include_subcategories: "無効にすると、親カテゴリのみの追跡状態が変更されます"
+  custom_toggle:
+    toggle_tracking: "現在ミュート中。選択して追跡"
+    toggle_mute: "現在追跡中、選択してミュート"

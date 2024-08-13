@@ -5,3 +5,13 @@
 # https://translate.discourse.org/
 
 nl:
+  theme_metadata:
+    description: "Voeg een volgschakelaar toe aan elke categorie op de categorieënpagina"
+    settings:
+      tracking_level: "0: Gedempt, 1: Normaal, 3: Eerste bericht observeren, 4: Volgen, 5: Observeren"
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">Font Awesome</a>-pictogramnaam...'
+      mute_level: "0: Gedempt, 1: Normaal, 3: Eerste bericht observeren, 4: Volgen, 5: Observeren"
+      include_subcategories: "Als dit is uitgeschakeld, wordt alleen de volgstatus van de bovenliggende categorie gewijzigd"
+  custom_toggle:
+    toggle_tracking: "Momenteel gedempt, selecteer om te volgen"
+    toggle_mute: "Momenteel gevolgd, selecteer om te dempen"

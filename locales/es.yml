@@ -5,3 +5,13 @@
 # https://translate.discourse.org/
 
 es:
+  theme_metadata:
+    description: "Añade un botón de seguimiento a cada categoría de la página de categorías"
+    settings:
+      tracking_level: "0: Silenciado, 1: Normal, 3: Viendo la primera publicación, 4: Seguimiento, 5: Viendo"
+      tracking_icon: 'Nombre del icono de <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>...'
+      mute_level: "0: Silenciado, 1: Normal, 3: Viendo la primera publicación, 4: Seguimiento, 5: Viendo"
+      include_subcategories: "Cuando está desactivada, solo se cambiará el estado de seguimiento de la categoría principal"
+  custom_toggle:
+    toggle_tracking: "Actualmente silenciada, selecciona para hacer seguimiento"
+    toggle_mute: "Actualmente en seguimiento, selecciona para silenciar"

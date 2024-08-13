@@ -5,3 +5,13 @@
 # https://translate.discourse.org/
 
 it:
+  theme_metadata:
+    description: "Aggiungi un interruttore di monitoraggio a ciascuna categoria nella pagina delle categorie"
+    settings:
+      tracking_level: "0: Disattivato, 1: Normale, 3: Osservazione del primo post, 4: Tracciamento, 5: Osservazione"
+      tracking_icon: 'Nome dell''icona <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>...'
+      mute_level: "0: Disattivato, 1: Normale, 3: Osservazione del primo post, 4: Tracciamento, 5: Osservazione"
+      include_subcategories: "Se l'opzione è disabilitata, verrà modificato lo stato di monitoraggio solo della categoria principale"
+  custom_toggle:
+    toggle_tracking: "Attualmente disattivata, seleziona per monitorare"
+    toggle_mute: "Attualmente in fase di monitoraggio, seleziona per silenziare"
