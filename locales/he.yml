@@ -5,3 +5,6 @@
 # https://translate.discourse.org/
 
 he:
+  theme_metadata:
+    settings:
+      tracking_icon: 'שם סמל ב־<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>…'
