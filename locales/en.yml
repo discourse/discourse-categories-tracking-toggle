@@ -3,7 +3,7 @@ en:
     description: "Add a tracking toggle to each category on the categories page"
     settings:
       tracking_level: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
-      tracking_icon: '<a target="_blank" href="https://fontawesome.com/search?o=r&m=free">FontAwesome</a> icon name...'
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a> icon name...'
       mute_level: "0: Muted, 1: Normal, 3: Watching first post, 4: Tracking, 5: Watching"
       include_subcategories: "When disabled, only the parent category will have its tracking state changed"
   custom_toggle:
