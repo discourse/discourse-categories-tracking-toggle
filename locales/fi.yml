@@ -9,7 +9,7 @@ fi:
     description: "Lisää seurantavalitsin aluesivun jokaiseen alueeseen"
     settings:
       tracking_level: "0: Vaimennettu, 1: Tavallinen, 3: Ensimmäinen viesti tarkkailussa, 4: Seurannassa, 5: Tarkkailussa"
-      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>-kuvakkeen nimi...'
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a>-kuvakkeen nimi...'
       mute_level: "0: Vaimennettu, 1: Tavallinen, 3: Ensimmäinen viesti tarkkailussa, 4: Seurannassa, 5: Tarkkailussa"
       include_subcategories: "Kun tämä on poistettu käytöstä, vain ylätason alueen seurannan tila muuttuu"
   custom_toggle:

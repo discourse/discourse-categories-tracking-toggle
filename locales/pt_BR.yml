@@ -9,7 +9,7 @@ pt_BR:
     description: "Adicionar uma alternância de monitoramento a cada categoria na página de categorias"
     settings:
       tracking_level: "0: Silenciado, 1: Normal, 3: Acompanhando primeira postagem, 4: Monitorando, 5: Acompanhando"
-      tracking_icon: 'Nome do ícone <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>...'
+      tracking_icon: 'Nome do ícone <a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a>...'
       mute_level: "0: Silenciado, 1: Normal, 3: Acompanhando primeira postagem, 4: Monitorando, 5: Acompanhando"
       include_subcategories: "Quando desativado, apenas a categoria pai terá seu estado de monitoramento alterado"
   custom_toggle:

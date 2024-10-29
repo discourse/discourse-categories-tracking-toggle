@@ -9,7 +9,7 @@ ar:
     description: "أضِف مفتاح تبديل للتتبع إلى كل فئة في صفحة الفئات"
     settings:
       tracking_level: "0: الكتم، 1: عادي، 3: مراقبة المنشور الأول، 4: التتبع، 5: المراقبة"
-      tracking_icon: 'اسم أيقونة <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>...'
+      tracking_icon: 'اسم أيقونة <a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a>...'
       mute_level: "0: الكتم، 1: عادي، 3: مراقبة المنشور الأول، 4: التتبع، 5: المراقبة"
       include_subcategories: "عند إيقافه، سيتم تغيير حالة التتبع للفئة الرئيسية فقط"
   custom_toggle:

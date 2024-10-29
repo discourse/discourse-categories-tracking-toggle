@@ -9,7 +9,7 @@ fr:
     description: "Ajoutez un bouton de suivi à chaque catégorie sur la page des catégories"
     settings:
       tracking_level: "0 : Désactivé, 1 : Normal, 3 : Visionnage du premier message, 4 : Suivi, 5 : Visionnage"
-      tracking_icon: 'Nom de l''icône <a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a>...'
+      tracking_icon: 'Nom de l''icône <a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a>...'
       mute_level: "0 : Désactivé, 1 : Normal, 3 : Visionnage du premier message, 4 : Suivi, 5 : Visionnage"
       include_subcategories: "Lorsque cette option est désactivée, seule la catégorie parente verra son état de suivi modifié"
   custom_toggle:
