@@ -9,7 +9,7 @@ zh_CN:
     description: "向类别页面上的每个类别添加跟踪开关"
     settings:
       tracking_level: "0：已设为免打扰，1：常规，3：关注第一个帖子，4：跟踪，5：关注"
-      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> 图标名称…'
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a> 图标名称…'
       mute_level: "0：已设为免打扰，1：常规，3：关注第一个帖子，4：跟踪，5：关注"
       include_subcategories: "禁用后，只有父类别的跟踪状态会发生改变"
   custom_toggle:

@@ -9,7 +9,7 @@ ja:
     description: "カテゴリページの各カテゴリに追跡トグルを追加します"
     settings:
       tracking_level: "0: ミュート、1: 通常、3: 最初の投稿をウォッチ中、4: 追跡中、5: ウォッチ中"
-      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v5.15/icons?d=gallery&m=free">FontAwesome</a> アイコン名...'
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a> アイコン名...'
       mute_level: "0: ミュート、1: 通常、3: 最初の投稿をウォッチ中、4: 追跡中、5: ウォッチ中"
       include_subcategories: "無効にすると、親カテゴリのみの追跡状態が変更されます"
   custom_toggle:
