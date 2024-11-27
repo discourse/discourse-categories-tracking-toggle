@@ -2,23 +2,10 @@
   position: absolute;
   right: 0;
   margin-top: 0.25em;
-  svg:nth-of-type(1) {
-    display: none;
-  }
-  .discourse-no-touch & {
-    &:hover {
-      // show reverse button state on hover
-      svg:nth-of-type(1) {
-        display: inline-block;
-      }
-      svg:nth-of-type(2) {
-        display: none;
-      }
-    }
-  }
+  z-index: 1;
 }
 
-// some minor adjustments to accommodate button
+// minimal adjustments to accommodate button
 .category-list {
   tr {
     position: relative;
@@ -30,5 +17,8 @@
     .latest {
       padding-right: 4em;
     }
+  }
+  td.category.muted {
+    height: 4em;
   }
 }
