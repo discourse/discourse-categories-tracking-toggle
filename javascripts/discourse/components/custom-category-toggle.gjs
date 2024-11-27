@@ -4,24 +4,23 @@ import { action } from "@ember/object";
 import { service } from "@ember/service";
 import DButton from "discourse/components/d-button";
 import { NotificationLevels } from "discourse/lib/notification-levels";
-import I18n from "discourse-i18n";
+import { i18n } from "discourse-i18n";
 
 export default class CustomCategoryToggle extends Component {
   @service currentUser;
 
   @tracked isLoading = false;
 
-  category = this.args.outletArgs.category;
+  get category() {
+    return this.args.outletArgs.category;
+  }
 
   async setAllLevels(newLevel) {
-    await this.args.outletArgs.category.setNotification(newLevel);
+    await this.category.setNotification(newLevel);
 
-    if (
-      this.args.outletArgs.category.subcategories &&
-      settings.include_subcategories
-    ) {
-      let subcategories = this.args.outletArgs.category.subcategories.map(
-        (category) => category.setNotification(newLevel)
+    if (this.category.subcategories && settings.include_subcategories) {
+      let subcategories = this.category.subcategories.map((category) =>
+        category.setNotification(newLevel)
       );
       await Promise.all(subcategories);
     }
@@ -41,8 +40,8 @@ export default class CustomCategoryToggle extends Component {
 
   get buttonTitle() {
     return this.isMuted
-      ? I18n.t(themePrefix("custom_toggle.toggle_tracking"))
-      : I18n.t(themePrefix("custom_toggle.toggle_mute"));
+      ? i18n(themePrefix("custom_toggle.toggle_tracking"))
+      : i18n(themePrefix("custom_toggle.toggle_mute"));
   }
 
   get iconName() {
@@ -66,7 +65,7 @@ export default class CustomCategoryToggle extends Component {
   <template>
     {{#if this.shouldShow}}
       <DButton
-        class="btn btn-default custom-category-toggle no-text btn-icon"
+        class="btn-default custom-category-toggle"
         @translatedTitle={{this.buttonTitle}}
         @icon={{this.iconName}}
         @action={{this.toggleMute}}
