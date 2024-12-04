@@ -9,7 +9,7 @@ ru:
     description: "Добавляет переключатель отслеживания для каждой категории на странице категорий"
     settings:
       tracking_level: "0: отключено, 1: обычный режим, 3: слежение за первой публикацией, 4: отслеживание, 5: слежение"
-      tracking_icon: 'имя значка <a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a> ...'
+      tracking_icon: 'Имя значка <a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a> ...'
       mute_level: "0: отключено, 1: обычный режим, 3: слежение за первой публикацией, 4: отслеживание, 5: слежение"
       include_subcategories: "Если этот параметр отключен, состояние отслеживания будет изменено только для родительской категории"
   custom_toggle:

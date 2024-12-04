@@ -9,7 +9,7 @@ nl:
     description: "Voeg een volgschakelaar toe aan elke categorie op de categorieënpagina"
     settings:
       tracking_level: "0: Gedempt, 1: Normaal, 3: Eerste bericht observeren, 4: Volgen, 5: Observeren"
-      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">Font Awesome</a>-pictogramnaam...'
+      tracking_icon: '<a target="_blank" href="https://fontawesome.com/v6/search?o=r&m=free">FontAwesome</a>-pictogramnaam...'
       mute_level: "0: Gedempt, 1: Normaal, 3: Eerste bericht observeren, 4: Volgen, 5: Observeren"
       include_subcategories: "Als dit is uitgeschakeld, wordt alleen de volgstatus van de bovenliggende categorie gewijzigd"
   custom_toggle:
