@@ -10,14 +10,17 @@
   tr {
     position: relative;
   }
+
   &.with-topics {
     .custom-category-toggle {
       top: 0;
     }
+
     .latest {
       padding-right: 4em;
     }
   }
+
   td.category.muted {
     height: 4em;
   }
